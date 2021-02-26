@@ -1,0 +1,132 @@
+body{
+	background-image: url("Bg.jpg");
+	/* background-repeat: no-repeat; */
+	
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+	position:sticky;
+	top: 0;
+    width: 100%;
+  }
+  
+  .topnav a {
+	float: left;
+	font-family: cursive;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	color: black;
+  }
+
+  .topnav-right {
+	float: right;
+  }
+
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  .img_div{
+	float: left;
+	width: 50%;
+	padding: 5px;
+  }
+  .menu_div{
+	float: right;
+	width: 50%;
+	padding: 160px;
+	font-size: 25px;
+	font-family: cursive;
+  }
+  #menu_list{
+	background-color:#f5c71a;
+	color:black; 
+	width: 200px;
+	border: none;
+  }
+
+  .newRow::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+  .block1{
+	float: left;
+	width: 20%;
+	padding: 5px;
+  }
+  .block2{
+	float: left;
+	width: 80%;
+	padding: 5px;
+	font-size: 25px;
+	font-family: cursive;
+  }
+
+  #add_toppings{
+
+	width:200px;
+	height:180px;
+	border: none;
+	background-color:#e2062c;
+	color:black;
+	font-size: 25px;
+	font-family: cursive;
+  }
+
+  #add_item {
+	font-family: cursive;
+	font-size: 15px;
+	line-height: 20px;
+	width: 80%;
+	height: 50px;
+    background: none;
+    border: none;
+    outline: none;
+ }
+
+ol.menulist>li
+{
+	padding-bottom:20px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-radius: 5px;
+	border-color: white;
+	background-color: rgba(255, 255, 255, 0.1);
+	margin: 20px;
+ }
+ 
+ div.card {
+    flex: 0 0 30%;
+	box-sizing: border-box;
+	color:white;
+	margin: 0.5rem .18em;
+	align-items: center;
+	font-size: medium;
+	margin: 20px;
+}
+
+.card img{
+	width:135px;
+	height:130px;
+	border-color: white;
+}
+.card{
+	background-image: url(topping.png);
+}
+#display_menu{
+    color: white;
+}
